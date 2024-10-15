@@ -1,0 +1,93 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+/* Global Styles */
+body {
+    background: linear-gradient(135deg, #4e4376 0%, #2b5876 100%);
+    color: #e0e0e0;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: rgba(34, 34, 34, 0.9);
+    padding: 15px;
+}
+
+.navbar a {
+    color: #e0e0e0;
+    font-weight: 500;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+/* Container Styling */
+.container {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styles */
+h1, h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+
+button {
+    width: 100%;
+    background: #00bcd4;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #0288d1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(34, 34, 34, 0.9);
+    color: #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
